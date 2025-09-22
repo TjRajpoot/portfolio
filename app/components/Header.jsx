@@ -16,7 +16,7 @@ const outfit = Outfit({
 const Header = ({ isDarkMode }) => {
   return (
     <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
-      <div
+      {/* <div
         className={`absolute w-96 h-96 rounded-full blur-3xl opacity-20 animate-pulse ${
           isDarkMode
             ? "bg-gradient-to-br from-purple-400 via-pink-400 to-blue-400"
@@ -27,7 +27,7 @@ const Header = ({ isDarkMode }) => {
           left: "70%",
           animation: "float1 20s ease-in-out infinite",
         }}
-      />
+      /> */}
       <motion.div
         initial={{ scale: 0.5 }}
         whileInView={{ scale: 1 }}
@@ -43,8 +43,8 @@ const Header = ({ isDarkMode }) => {
           }
         />
       </motion.div>
-      <div
-        className={`absolute w-96 h-96 rounded-full blur-3xl opacity-25 animate-spin ${
+      {/* <div
+        className={`absolute w-46 h-36 rounded-full blur-3xl opacity-25 animate-spin ${
           isDarkMode
             ? "bg-gradient-to-br from-purple-400 via-pink-400 to-amber-400"
             : "bg-gradient-to-br from-purple-300 via-pink-300 to-blue-300"
@@ -54,7 +54,7 @@ const Header = ({ isDarkMode }) => {
           right: "70%",
           animation: "float2 20s ease-in-out infinite",
         }}
-      />
+      /> */}
       <motion.h3
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
