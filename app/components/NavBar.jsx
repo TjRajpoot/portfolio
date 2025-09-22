@@ -36,9 +36,9 @@ const NavBar = ({ isDarkMode, setIsDarkMode }) => {
   }, []);
 
   return (
-    <div className="">
+    <div className="pl-4 flex flex-col items-center justify-between">
       <nav
-        className={`w-full fixed px-2 flex item-center justify-between z-50 lg:px-6 xl:px-[8%] py-2 ${
+        className={`fixed px-2 flex item-center justify-between z-30 lg:px-6 xl:px-[8%] py-2 ${
           isScroll
             ? " bg-white/50 backdrop-blur-lg  shadow-sm  dark:shadow-white/20"
             : ""
@@ -52,7 +52,7 @@ const NavBar = ({ isDarkMode, setIsDarkMode }) => {
           />
         </a>
         <ul
-          className={`hidden md:flex items-center ml-15 justify-between gap-6 lg:gap-8 rounded-full px-30 py-1  ${
+          className={`hidden md:flex items-center ml-15 justify-between gap-3 lg:gap-5 rounded-full px-30 py-1  ${
             isScroll ? "" : "bg-white/50 shadow-sm"
           } transition-all duration-500 ease-in-out`}
         >
@@ -90,7 +90,7 @@ const NavBar = ({ isDarkMode, setIsDarkMode }) => {
             <Image
               src={isDarkMode ? assets.sun_icon : assets.moon_icon}
               alt=""
-              className="w-6 h-6 transition-colors duration-3000"
+              className="w-5 h-5 transition-colors duration-3000"
             />
           </button>
           <a
@@ -152,6 +152,7 @@ const NavBar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
         </ul>
       </nav>
+      <div className="w-full"></div>
     </div>
   );
 };

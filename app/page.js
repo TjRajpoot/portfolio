@@ -32,7 +32,7 @@ useEffect(() => {
 
 
   return (
-    <>
+    <div className="">
     <NavBar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
     <Header isDarkMode={isDarkMode}/>
     <About isDarkMode={isDarkMode}/>
@@ -40,6 +40,6 @@ useEffect(() => {
     <Work isDarkMode={isDarkMode}/>
     <Contact isDarkMode={isDarkMode}/>
     <Footer isDarkMode={isDarkMode}/>
-    </>
+    </div>
   );
 }
