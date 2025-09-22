@@ -40,7 +40,7 @@ const Contact = ({ isDarkMode }) => {
     });
 
     const data = await response.json();
-
+ 
     if (data.success) {
       setResult("Form Submitted Successfully");
       event.target.reset();

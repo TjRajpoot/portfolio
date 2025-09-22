@@ -68,7 +68,7 @@ const Header = ({ isDarkMode }) => {
       </motion.h3>
       <h1 className={`${ovo.className} text-xl sm:text-6xl lg:text-[65px]`}>
         <span className={`${ovo.className}`}>
-          <Typewriter
+          {/* <Typewriter
             options={{
               strings: [
                 "Full Stack Developer",
@@ -80,7 +80,7 @@ const Header = ({ isDarkMode }) => {
               delay: 100,
               deleteSpeed: 65,
             }}
-          />
+          /> */}
         </span>
       </h1>
       <p className={`${outfit.className} max-w-2xl mx-auto`}>
