@@ -103,7 +103,7 @@ const Header = ({ isDarkMode }) => {
         </a>
         {/* My Resume Button */}
         <a
-          href="public/sample-resume.pdf"
+          href="/sample-resume.pdf"
           download="Tanuj-Singh-Resume.pdf"
           className="relative overflow-hidden px-10 py-3 rounded-full border border-gray-500 flex items-center gap-2 bg-blue-50 shadow-sm group"
         >
