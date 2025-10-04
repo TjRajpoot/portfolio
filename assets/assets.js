@@ -91,11 +91,11 @@ export const workData = [
         description: 'Mobile App',
         bgImage: '/work-2.png',
     },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
+    // {
+    //     title: 'Photography site',
+    //     description: 'Web Design',
+    //     bgImage: '/work-3.png',
+    // },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
@@ -118,4 +118,5 @@ export const infoList = [
 
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+
 ];
